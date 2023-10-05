@@ -1,0 +1,25 @@
+.theme--light.v-application{
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to bottom, #59c173, #a17fe0, #5d26c1);
+  min-height: 100vh;
+  color: #fff;
+}
+header {
+  background-image: linear-gradient(
+                  to bottom,
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0.5)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  color: white !important;
+}
+.text-post{
+    color: #000000;
+     &:hover{
+       color: #5d26c1;
+       cursor: pointer;
+     }
+}
